@@ -19,7 +19,7 @@ $ docker build -t website-template .
 Then run the container:
 
 ```bash
-$ docker run website-template .
+$ docker run -p 80:80 website-template .
 ```
 
 You can see your website in the browser by visiting
